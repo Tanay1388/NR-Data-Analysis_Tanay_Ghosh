@@ -1,0 +1,13 @@
+Code up a function returning the following simple fits for the final mass (as a fraction of the
+total mass) and dimensionless spin of nonspinning binary black holes from Pan et al. PRD
+(2011) as functions of ν, the symmetric mass ratio
+
+$\frac{M_{f}}{M}=1+(\sqrt{\frac{8}{9}}\nu-0.4333\nu^{2}-0.4392\nu^{3})$\\
+$\frac{a_{f}}{M_{f}}=\sqrt{12}\nu-3.871\nu^{2}+4.028\nu^{3}$\\
+
+Here $\nu$(nu), also known in the literature as $\eta$ (eta, which I use below—sorry!) is defined as
+
+$\nu$:= $\frac{M_{1}M_{2}}{M_{1}+M_{2}}$
+
+and hence ranges from 0 to 1/4. (Your function should take in an
+arbitrary value of ν, though, not necessarily just a linspace array.)
